@@ -77,7 +77,7 @@ set_zone(int in, struct IO_CON *io) {
 			sprintf(tmp, "init=nad%s:%d", io->t83 ? "83" : "27", io->zone);
 		io->projc[io->nprojc++] = tmp;
 		io->projc[io->nprojc++] = "no_defs";
-		if (!(io->cnv = pj_init(io->nprojc, io->projc)))
+		if (!(io->cnv = pj_init_alt(io->nprojc, io->projc)))
 			emess(1,pj_strerrno(pj_errno));
 		io->ll = 0;
 	}

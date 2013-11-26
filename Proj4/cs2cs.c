@@ -335,7 +335,7 @@ int main(int argc, char **argv)
         to_argc = argcount;
     }
 
-    if (!(fromProj = pj_init(from_argc, from_argv)))
+    if (!(fromProj = pj_init_alt(from_argc, from_argv)))
     {
         printf( "Using from definition: " );
         for( i = 0; i < from_argc; i++ )
@@ -359,7 +359,7 @@ int main(int argc, char **argv)
                   pj_strerrno(pj_errno));
         }   
     }
-    else if (!(toProj = pj_init(to_argc, to_argv)))
+    else if (!(toProj = pj_init_alt(to_argc, to_argv)))
     {
         printf( "Using to definition: " );
         for( i = 0; i < to_argc; i++ )

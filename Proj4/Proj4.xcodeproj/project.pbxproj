@@ -79,7 +79,7 @@
 		B87056430E67C32200CC2ED1 /* PJ_hammer.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A30E67C32200CC2ED1 /* PJ_hammer.c */; };
 		B87056440E67C32200CC2ED1 /* PJ_hatano.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A40E67C32200CC2ED1 /* PJ_hatano.c */; };
 		B87056450E67C32200CC2ED1 /* PJ_imw_p.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A50E67C32200CC2ED1 /* PJ_imw_p.c */; };
-		B87056460E67C32200CC2ED1 /* pj_init.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A60E67C32200CC2ED1 /* pj_init.c */; };
+		B87056460E67C32200CC2ED1 /* pj_init_alt.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A60E67C32200CC2ED1 /* pj_init_alt.c */; };
 		B87056470E67C32200CC2ED1 /* pj_inv.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A70E67C32200CC2ED1 /* pj_inv.c */; };
 		B87056480E67C32200CC2ED1 /* PJ_krovak.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A80E67C32200CC2ED1 /* PJ_krovak.c */; };
 		B87056490E67C32200CC2ED1 /* PJ_labrd.c in Sources */ = {isa = PBXBuildFile; fileRef = B87055A90E67C32200CC2ED1 /* PJ_labrd.c */; };
@@ -250,7 +250,7 @@
 		B87055A30E67C32200CC2ED1 /* PJ_hammer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PJ_hammer.c; sourceTree = "<group>"; };
 		B87055A40E67C32200CC2ED1 /* PJ_hatano.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PJ_hatano.c; sourceTree = "<group>"; };
 		B87055A50E67C32200CC2ED1 /* PJ_imw_p.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PJ_imw_p.c; sourceTree = "<group>"; };
-		B87055A60E67C32200CC2ED1 /* pj_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pj_init.c; sourceTree = "<group>"; };
+		B87055A60E67C32200CC2ED1 /* pj_init_alt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pj_init_alt.c; sourceTree = "<group>"; };
 		B87055A70E67C32200CC2ED1 /* pj_inv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pj_inv.c; sourceTree = "<group>"; };
 		B87055A80E67C32200CC2ED1 /* PJ_krovak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PJ_krovak.c; sourceTree = "<group>"; };
 		B87055A90E67C32200CC2ED1 /* PJ_labrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PJ_labrd.c; sourceTree = "<group>"; };
@@ -460,7 +460,7 @@
 				B87055A30E67C32200CC2ED1 /* PJ_hammer.c */,
 				B87055A40E67C32200CC2ED1 /* PJ_hatano.c */,
 				B87055A50E67C32200CC2ED1 /* PJ_imw_p.c */,
-				B87055A60E67C32200CC2ED1 /* pj_init.c */,
+				B87055A60E67C32200CC2ED1 /* pj_init_alt.c */,
 				B87055A70E67C32200CC2ED1 /* pj_inv.c */,
 				B87055A80E67C32200CC2ED1 /* PJ_krovak.c */,
 				B87055A90E67C32200CC2ED1 /* PJ_labrd.c */,
@@ -711,7 +711,7 @@
 				B87056430E67C32200CC2ED1 /* PJ_hammer.c in Sources */,
 				B87056440E67C32200CC2ED1 /* PJ_hatano.c in Sources */,
 				B87056450E67C32200CC2ED1 /* PJ_imw_p.c in Sources */,
-				B87056460E67C32200CC2ED1 /* pj_init.c in Sources */,
+				B87056460E67C32200CC2ED1 /* pj_init_alt.c in Sources */,
 				B87056470E67C32200CC2ED1 /* pj_inv.c in Sources */,
 				B87056480E67C32200CC2ED1 /* PJ_krovak.c in Sources */,
 				B87056490E67C32200CC2ED1 /* PJ_labrd.c in Sources */,

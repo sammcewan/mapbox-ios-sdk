@@ -414,7 +414,7 @@ int main(int argc, char **argv) {
         postscale = 0;
         fscale = 1./fscale;
     }
-    if (!(Proj = pj_init(pargc, pargv)))
+    if (!(Proj = pj_init_alt(pargc, pargv)))
         emess(3,"projection initialization failure\ncause: %s",
               pj_strerrno(pj_errno));
 

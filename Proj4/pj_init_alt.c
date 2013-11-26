@@ -202,7 +202,7 @@ pj_init_plus( const char *definition )
     }
 
     /* perform actual initialization */
-    result = pj_init( argc, argv );
+    result = pj_init_alt( argc, argv );
 
     pj_dalloc( defn_copy );
 
@@ -219,7 +219,7 @@ pj_init_plus( const char *definition )
 /************************************************************************/
 
 PJ *
-pj_init(int argc, char **argv) {
+pj_init_alt(int argc, char **argv) {
 	char *s, *name;
         paralist *start = NULL;
 	PJ *(*proj)(PJ *);
